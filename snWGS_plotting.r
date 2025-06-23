@@ -1,3 +1,5 @@
+###plotting figure 3E
+
 library(dplyr)
 genome_cn_ascat <- read.table("/Users/tjmitchell1/catalyst_final/p12_updated_svs.txt", 
 header = TRUE,

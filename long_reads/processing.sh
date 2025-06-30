@@ -1,6 +1,6 @@
 
-MODEL=/rsrch9/home/genetics/vanloolab/tmitchell/lrs/dorado_0.9/models/dna_r10.4.1_e8.2_400bps_hac@v5.0.0
-MODEL_5mcs=/rsrch9/home/genetics/vanloolab/tmitchell/lrs/dorado_0.9/models/dna_r10.4.1_e8.2_400bps_hac@v5.0.0_5mCG_5hmCG@v3/
+MODEL=/tmitchell/lrs/dorado_0.9/models/dna_r10.4.1_e8.2_400bps_hac@v5.0.0
+MODEL_5mcs=/tmitchell/lrs/dorado_0.9/models/dna_r10.4.1_e8.2_400bps_hac@v5.0.0_5mCG_5hmCG@v3/
 REF=/tmitchell/REF/hg38/GRCh38.primary_assembly.genome.fa
 
 /tmitchell/lrs/dorado_0.9/dorado-0.9.1-linux-x64/bin/dorado basecaller $MODEL $FILEPATH --reference $REF --modified-bases-models $MODEL_5mcs -b 1500 > ${OUT_PATH}/${FILENAME}/${FILENAME}_aligned.bam
